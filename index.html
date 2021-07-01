@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GREEN PLANET</title>
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="./public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./public/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- nut quay lại đầu trang -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&circ;</button>
+
+    <!-- header -->
+    <header class="top-header">
+        <img class="logo" src="./public/images/logo.webp" alt="Green Planet">
+    </header>
+
+    <!-- thanh navbar -->
+    <div class="menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-White">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <div class="a">Home</div>
+                                </a>
+                            </li>
+                            <!-- sub menu -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link ms-5" href="#" id="navbarDropdown">
+                                    <div class="b">ABOUT US</div>
+
+                                </a>
+                                <ul class="dropdown-content">
+                                    <li><a class="dropdown-item" href="#">HISTORY</a></li>
+                                    <li><a class="dropdown-item" href="#">TEAM</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQS</a></li>
+                                    <li><a class="dropdown-item" href="#">TEMPLATE <br> SETTINGS</a></li>
+                                    <li><a class="dropdown-item" href="#">FORUM</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-5" href="#">
+                                    <div class="b">GALLERY</div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-5" href="#">
+                                    <div class="b">SERVICES</div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-5" href="#">
+                                    <div class="b">BLOG</div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ms-5" href="#">
+                                    <div class="b">CONTACTS</div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- icon -->
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-4" href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-4" href="#">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-4" href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-4" href="#">
+                                    <i class="fab fa-skype"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-black pe-4" href="#">
+                                    <i class="fab fa-pinterest-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- đường gạch -->
+    <hr class="underlined">
+
+
+    <div class="container">
+        <!-- Phần welcom -->
+        <div class="hello">
+            <h1 class="Wel">welcom</h1>
+            <div>
+                <p class="over">
+                    <br> Over the last 13 years, Exterior Design has created numerous award-winning luxury outdoor
+
+                    <br> living areas. In our time we’ve seen the traditional landscaping and outdoor living evolve from
+
+                    <br> verandas, patios lawns and gardens,into outdoor living spaces that blur the distinction
+
+                    <br> between inside and outside.
+                </p>
+
+            </div>
+        </div>
+
+        <!-- trình chiếu hình ảnh -->
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-1.jpg" alt="house">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-2.jpg" alt="house">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-3.jpg" alt="tree">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-4.jpg" alt="house">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-5.jpg" alt="house">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-6.jpg" alt="tree">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./public/images/slide-7.jpg" alt="tree">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <!-- phần recent -->
+        <div class="recent">
+            <h1 class="re">
+                Recent from the blog
+            </h1>
+
+            <!-- bảng time 30 MAY -->
+            <table>
+                <tr>
+                    <td id="time">30 may</td>
+                    <td class="nd">Japanese style in your garden. Everything you need to know <span class="by">by Super
+                            User</span> </td>
+                </tr>
+            </table>
+            <!-- đường gạch -->
+            <hr class="h">
+            <table>
+                <tr>
+                    <td id="time1">30 may</td>
+                    <td class="nd">Ultimate Guide to Home Landscape Maintenance <span class="by">by Super User</span>
+                    </td>
+                </tr>
+            </table>
+            <!-- đường gạch -->
+            <hr class="h">
+            <table>
+                <tr>
+                    <td id="time2">30 may</td>
+                    <td class="nd">Flowers in your garden. The best sorts of flowers for ourdoors <span class="by">by
+                            Super User</span> </td>
+
+                </tr>
+            </table>
+            <!-- đường gạch -->
+            <hr class="h">
+        </div>
+
+        <!-- phần our staff -->
+        <h1 class="our">OUR STAFF</h1>
+        <div class="content">
+            <div class="mcontent">
+                <img class="gray" src="./public/images/team-1.jpg" alt="">
+                <h2>Robert Grey</h2>
+                <p class="ex">Exterior designer</p>
+                <p class="line1">Robert works as a gardener for 4 years. He loves plants and</p>
+                <p class="line2">knows how to take care after them. He knows how prune</p>
+                <p class="line3">trees, shrubs, lawn and others.</p>
+            </div>
+            <div class="rcontent">
+                <img class="lee" src="./public/images/team-2.jpg" alt="">
+                <h2>Marta Lee</h2>
+                <p class="ex">Landscape designer</p>
+                <p class="line1">Marta is an experienced landscape designer. She is very</p>
+                <p class="line2">good at landscaping styles and can advise you which one</p>
+                <p class="line3">will fit your garden area.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sam -->
+    <div class="banner">
+        <img class="Sam" src="./public/images/avatar.jpg" alt="SamA">
+        <P class="we">We are glad to be the clients of this gardening company. Our garden looks just
+            perfect. All </P>
+        <p class="pla">
+            plants and trees in particular are in good condition. Thank you so much!
+        </p>
+        <p class="h4">Sam Adams, Client</p>
+
+    </div>
+
+    <!-- hình ảnh -->
+    <table class="pic">
+        <tr>
+            <td class="img-container"><img class="picture" src="./public/images/carousel-3.webp" alt="phongcanh"></td>
+            <td class="img-container"><img class="picture" src="./public/images/carousel-4.webp" alt="phongcanh"></td>
+            <td class="img-container"><img class="picture" src="./public/images/carousel-5.webp" alt="phongcanh"></td>
+            <td class="img-container"><img class="picture" src="./public/images/carousel-6.webp" alt="phongcanh"></td>
+            <td class="img-container"><img class="picture" src="./public/images/carousel-1.webp" alt="phongcanh"></td>
+            <td class="img-container"><img class="picture" src="./public/images/carousel-2.webp" alt="phongcanh"></td>
+        </tr>
+        <tr>
+            <td class="pm">Project Name</td>
+            <td class="pm">Project Name</td>
+            <td class="pm">Project Name</td>
+            <td class="pm">Project Name</td>
+            <td class="pm">Project Name</td>
+            <td class="pm">Project Name</td>
+        </tr>
+    </table>
+
+    <!-- đường gạch -->
+    <hr class="underlined">
+
+    <!-- Footer -->
+    <div class="footer">
+        Green Planet &copy; 2021 All Rights Reserved | <span class="pri">Privacy policy</span>
+    </div>
+
+    
+    <!-- java -->
+    <script src="./public/js/sitescripts.js"></script>
+   
+</body>
+
+</html>

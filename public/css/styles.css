@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    width: 100%;
+}
+
+/* header */
+header.top-header{
+    background: url(../images/topbg.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    position: relative;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    width: 100%;
+    
+}
+
+.logo{
+    padding: 500px 350px;
+    background-position: center;
+    /* transform:scale(0); zoom lớn lên*/
+    background-size: cover;
+    position: relative;
+    top: 300px;
+}
+
+/* thanh navbar */
+
+.menu{
+    background: #ffffff;
+    margin: 15px 15px;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.a{
+    color: #7adc8e;
+    font-size: 1.5rem;
+    
+}
+
+.b:hover {
+    color: #7adc8e;
+}
+
+.b{
+    color: #151413;
+    font-size: 20px;
+}
+
+
+/* sub-menu */
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    list-style: none;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    color: #ffffff;
+    position: relative;
+    right: 35px;
+    margin: 15px 0;
+    font-size: small;
+}
+
+.dropdown-content a:hover{
+    background-color:#7adc8e;
+}
+
+/* icon */
+.fab:hover{
+    color: #7adc8e;
+}
+
+/* đường gạch */
+.underlined{
+    opacity: 0.06;
+    color: #529db9;
+}
+
+/* welcom */
+
+.hello{
+    margin: 100px 0;
+
+}
+
+.Wel{
+
+    color: #151413;
+    text-align: center;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    font: 700 36px/1.2 'Montserrat',sans-serif;
+    text-indent: 10%;
+    
+}
+
+.over{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    color: #151413;
+    display: block;
+    margin: 50px 0;
+    margin-right: -100px;
+    line-height: 36px;
+}
+
+/* trình chiếu hình ảnh */
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {
+    vertical-align: middle;
+    border-radius: 20px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer; /*con trỏ */
+    position: absolute;
+    top: 50%;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    margin-right: -170px;
+}
+.prev{
+    margin-left: -50px; 
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    color: #7adc8e;
+}
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 864000s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* recent */
+
+.re{
+    color: black;
+    text-align: left;
+    margin: 50px 0;
+    letter-spacing: 2.4px; /*dãn chữ*/
+    text-transform: uppercase;
+    font: 700 24px/36px 'Montserrat',sans-serif;
+    text-indent: 12%;
+}
+
+/* bảng time 30 may */
+
+#time {
+    border-radius: 25px;
+    background: #7adc8e;
+    padding: 5px 15px;
+    width: 85px;
+    height: 80px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; /*tự động viết hoa */
+    display: block;
+    position: relative;
+    right: -150px;
+    font-size: 20px;
+}
+
+#time1 {
+    border-radius: 25px;
+    background: #7adc8e;
+    padding: 5px 15px;
+    width: 85px;
+    height: 80px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; /*tự động viết hoa */
+    display: block;
+    position: relative;
+    right: -150px;
+    font-size: 20px;
+}
+
+#time2 {
+    border-radius: 25px;
+    background: #7adc8e;
+    padding: 5px 15px;
+    width: 85px;
+    height: 80px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase; /*tự động viết hoa */
+    display: block;
+    position: relative;
+    right: -150px;
+    font-size: 20px;
+}
+
+.h{
+    width: 80%;
+    color:#b8b8b8;
+    text-align: center;
+    position: relative;
+    right: -150px;
+    margin: 35px 0;
+}
+
+.nd{
+    color: black;
+    text-indent: 170px;
+    font: 600 24px/36px 'Montserrat',sans-serif;
+    cursor: pointer;
+}
+
+.nd:hover{
+    color: #7adc8e;
+}
+
+.by{
+    color:#7adc8e;
+    font-size: .8rem;
+    cursor: auto;
+    vertical-align: top; /* put text on top */
+}
+
+/* our staff */
+.our{
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.mcontent{
+    width:50%;
+    padding-left: 20px;
+    
+}
+
+.rcontent{
+    width:50%;
+    padding-right: 20px;
+    
+}
+
+.content{             
+    display: flex;
+    padding: 50px 50px;
+    text-align: center;
+    
+}
+
+.lee{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.gray{
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.line1{
+    color: #9d9d9d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.line2{
+    color: #9d9d9d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.line3{
+    color: #9d9d9d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.ex{
+    color: #7adc8e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Sam */
+.banner{
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0;
+    background: #7adc8e;
+    margin-top: 500px;
+}
+.Sam {
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.we{
+    line-height: 1px;
+    padding-top: 55px;
+    font-size: 18px;
+    font-family: montserrat,sans-serif;
+    word-spacing: 2px;
+
+}
+
+.pla{
+    font-size: 18px;
+    font-family: montserrat,sans-serif;
+    word-spacing: 2px;
+}
+
+.h4{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 2.4px;
+    padding-top: 35px;
+
+}
+
+.Adam{
+    text-transform: none;
+}
+
+/* hình ảnh */
+
+.pic{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.picture{
+    border-radius: 10%;
+}
+
+.pm{
+    font-size: 1.5rem;
+    font-weight: bold; /* in đậm */
+    letter-spacing: 2px; /*tăng hoặc giảm khoảng cách giữa các ký tự */
+    font-family: monospace,sans-serif;
+    text-indent: 50px; /* thụt đầu dòng */
+    padding-top: 35px;
+     
+}
+.pm:hover{
+    color: #7adc8e;
+}
+
+.img-container{ 
+	overflow: hidden; /** DÒNG BẮT BUỘC CÓ **/ 
+} 
+	
+.img-container img { 
+    padding-right: 35px;
+	transition: all 1s; /** Tạo độ mượt **/ 
+} 
+	
+.img-container:hover img { 
+    transform: scale(1.2); /* zoom ảnh */
+    filter: grayscale(100%); /* đổi màu sang đen */
+}
+
+/* footer */
+
+.footer{
+    color:#5d6973;
+    text-align: center;
+    padding: 0 50px ;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 36px;
+}
+
+.pri:hover{
+    color: #7adc8e;
+    cursor: pointer;
+}
+
+
+/* nut quay lại đầu trang */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 999; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #7adc8e; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 3px 3px; /* Some padding */
+    border-radius:100%; /* Rounded corners */
+    font-size: 3.0rem; /* Increase font size */
+    height: 50px;
+    width: 60px;
+}
+
+  #myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+}
+
+/* Responsive */
+
+/* Fading animation */
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next {
+    font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
